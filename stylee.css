@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+}
+.wrapper ul{
+    padding: 25px;
+}
+.wrapper ul li{
+color: white;
+display: inline;
+margin: 10px;
+padding: 10px 20px;
+}
+.btn1{
+    display: inline;
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: green 8s linear;
+    background-color: aqua;
+}
+.btn2{
+    color: white;
+    background-color: green;
+    display: inline;
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: yellow 8s linear;
+}
+.btn3{
+    color: white;
+    background-color: rgb(11, 99, 11);
+    display: inline;
+    border: 1px solid red;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.wrapper ul li :hover{
+    content: "";
+    position: absolute;
+}
+.btn1::before{
+    content: "";
+    position: absolute;
+    transition: green 8s linear;
+}
+.btn1:hover{
+    color:red ;
+}
+.btn2:hover{
+    color: chartreuse;
+}
+.btn3:hover{
+    color: brown;
+}
